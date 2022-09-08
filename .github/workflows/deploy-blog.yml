@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: Build and Deploy
-        uses: theme-keep/hexo-deploy-github-pages-action@master
+        uses: MingxuanAWA/hexo-deploy-github-pages-action@master
         env:
           PERSONAL_TOKEN: ${{ secrets.GH_TOKEN }}
           PUBLISH_REPOSITORY: MingxuanAWA/blog
