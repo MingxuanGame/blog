@@ -42,7 +42,7 @@ jobs:
       #     deploy_key: ${{ secrets.DEPLOY_KEY }}
       #     commit_msg: ${{ github.event.head_commit.message }}
       - name: Sync remote
-      - run: node ./.github/sync_deploy_history.js
+        run: node ./.github/sync_deploy_history.js
 
       - name: Deploy
         run: |
