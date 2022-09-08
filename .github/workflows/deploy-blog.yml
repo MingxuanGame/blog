@@ -31,7 +31,5 @@ jobs:
       - name: Build and Deploy
         uses: MingxuanAWA/hexo-deploy-github-pages-action@master
         env:
-          PUBLISH_REPOSITORY: MingxuanAWA/blog
-          BRANCH: master
           PUBLISH_DIR: ./public
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
