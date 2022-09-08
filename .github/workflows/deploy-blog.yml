@@ -28,23 +28,10 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Set ssk-key
-        run: |
-          mkdir -p /root/.ssh/
-          echo ${{ secrets.DEPLOY_KEY }} > /root/.ssh/id_rsa
-          chmod 600 /root/.ssh/id_rsa
-          ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
-
-      # - name: Deploy
-      #   id: deploy
-      #   uses: sma11black/hexo-action@v1.0.3
-      #   with:
-      #     deploy_key: ${{ secrets.DEPLOY_KEY }}
-      #     commit_msg: ${{ github.event.head_commit.message }}
-      - name: Sync remote
-        run: node ./.github/sync_deploy_history.js
-
-      - name: Deploy
-        run: |
-          hexo clean
-          hexo g -d -m ${{ github.event.head_commit.message }}
+      - name: Build and Deploy
+        uses: theme-keep/hexo-deploy-github-pages-action@master
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GH_TOKEN }}
+          PUBLISH_REPOSITORY: MingxuanAWA/blog
+          BRANCH: master
+          PUBLISH_DIR: ./public
