@@ -25,12 +25,6 @@ while True:
     time.sleep(114514)
 ```
 
-## 统计信息
-
-![GitHub](https://github-readme-stats.vercel.app/api?username=MingxuanGame)
-
-![Wakatime](https://github-readme-stats.vercel.app/api/wakatime?username=MingxuanGame&layout=compact&hide_border=true)
-
 ---
 
 ![banner](/images/banner.png)
