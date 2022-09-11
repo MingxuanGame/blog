@@ -698,10 +698,11 @@
     "stylus" "^0.57.0"
 
 "hexo-sakana@^1.0.0":
-  "integrity" "sha512-JYSShSe2vgTNewwXhh2ysHEzCD2Y77GoA5PfsPiZlSwOqgEKUHt3rT0tlwv7/yP6IF7p5GlmFxfKeDolkIKI/w=="
-  "resolved" "https://registry.npmjs.org/hexo-sakana/-/hexo-sakana-1.0.0.tgz"
-  "version" "1.0.0"
+  "integrity" "sha512-2k/86wFvJVBcxnjTjW65G0ucKLpGeGAN66h6w/boicB+esSbtMw0cSMFULS/RCJBtH5bezi0y+wt7WVROaRXVA=="
+  "resolved" "https://registry.npmjs.org/hexo-sakana/-/hexo-sakana-1.0.2.tgz"
+  "version" "1.0.2"
   dependencies:
+    "hexo" "^6.3.0"
     "hexo-log" "^3.2.0"
     "lodash" "^4.17.21"
 
