@@ -13,18 +13,18 @@ motto: "Do what you like."
 github: "https://github.com/MingxuanGame"
 
 # 站点图标和APP图标
-favicon: 
+favicon:
   icon: /images/favicon.jpg
   touch_icon: /images/favicon.jpg
 
 # RSS文件位置
-rss: 
+rss:
 
 # 自定义样式文件
-custom_styles: 
+custom_styles:
 
 # 自定义脚本文件
-custom_scripts: 
+custom_scripts:
 
 # 代码高亮主题: normal | night | night blue | night bright | night eighties
 highlight_theme: "night eighties"
@@ -41,30 +41,29 @@ copyright:
 # 建站时间. 格式：YYYY-MM-DD
 start_time: "2022-09-08"
 
-# # 如何开启 评论&统计 插件：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
-# # 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
-# leancloud:
-#   appid: Hyq9wkH495DgNHWhDQCOfQSp-gzGzoHsz # 填写您的appid
-#   appkey: WaR7nrzhliHj9aVwdQzkdlGd # 填写您的appkey
-#   comment: true # 是否开启评论系统
-#   count: true # 是否开启文章统计
+# 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
+leancloud:
+  appid: Xqx314bLUnrL2wetLC03Ofhu-MdYXbMMI
+  appkey: kQXnQs2wtu271vKEaJXDnVnN
+  comment: true # 是否开启评论系统
+  count: true # 是否开启文章统计
 
-# # 需要保证leancloud.count为true
-# welcome: 
-#   enable: false
-#   interval: 30
+# 需要保证leancloud.count为true
+welcome:
+  enable: true
+  interval: 30
 
-# # 需要保证leancloud.comment为false
-# disqus: 
-#   enable: false
-#   id: 
+# 需要保证leancloud.comment为false
+disqus:
+  enable: false
+  id:
 
-# # 需要保证leancloud.count为false
-# busuanzi: false
+# 需要保证leancloud.count为false
+busuanzi: false
 
 # 存放sha256加密的密码
 # 拥有所有加锁文章的阅读权限
-# passwords: 
+# passwords:
 #   - efe07af7441da2b69c4a41e42e73be4db47f66010a56900788a458354a7373ec # godbmw
 
 share:
@@ -79,23 +78,25 @@ analytics:
     enable: false
   google:
     enable: false
-    id: 
+    id:
   "360":
     enable: false
-    id: 
+    id:
 
 # 打赏图片
-# reward:
-#   -
-#     src: /images/wechat.png
-#     alt: "WeChat"
-#   -
-#     src: /images/alipay.png
-#     alt: "AliPay"
+reward:
+  enable: false
+  qrcodes:
+  -
+    src: /images/wechat.png
+    alt: "WeChat"
+  -
+    src: /images/alipay.png
+    alt: "AliPay"
 
 # 第三方库的CDN地址
 # 请根据情况自行决定是否替换为国内CDN
-cdn: 
+cdn:
   leancloud: "//cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"
   mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
   valine: "//unpkg.com/valine/dist/Valine.min.js"
