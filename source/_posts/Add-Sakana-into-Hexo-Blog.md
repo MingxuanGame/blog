@@ -33,6 +33,10 @@ npm install hexo-sakana --save
 npm install hexo-sakana --save --registry=https://registry.npm.taobao.org
 ```
 
+如果你没有修改配置而直接重启，当你在右下角看到小泷奈的时候，恭喜安装成功！
+
+![Sakana~](/images/sakana/sakana.gif)
+
 ## 配置
 
 在你的配置文件（通常是 `_config.yml` 或 `_config.[theme].yml`）添加如下内容
