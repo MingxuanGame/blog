@@ -120,7 +120,7 @@ d: 1
 
 ~~井之上千束~~
 
-## 自定义图片
+### 自定义图片
 
 ```yaml
 base: chisato
@@ -130,7 +130,7 @@ image: "https://raw.githubusercontent.com/dsrkafuu/sakana-widget/main/public/git
 
 ![github](/images/sakana/custom-image.gif)
 
-## 吉松千束
+### 吉松千束
 
 ~~令人眼前一黑的角色增加了~~
 
@@ -138,7 +138,7 @@ image: "https://raw.githubusercontent.com/dsrkafuu/sakana-widget/main/public/git
 
 ```yaml
 base: chisato
-name: github
+name: shinji
 image: "https://lycoris-recoil.com/assets/img/character/chara_shinji.png"
 ```
 
