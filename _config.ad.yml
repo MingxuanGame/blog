@@ -123,6 +123,30 @@ nav:
     name: "关于"
     path: "/about/"
 
+friends:
+  # 我也不知道为什么把我自己放在前面又不显示出来
+  # termux 物理键盘没法打中文有点难受
+  - nickname: MingxuanGame
+    avatar: /images/favicon.jpg
+    site: https://blog.mxgame.top
+    meta: 我自己！
+    show: false
+  - nickname: 津轻年回
+    avatar: https://avatars.githubusercontent.com/u/30568146
+    site: https://blog.nranp.com/
+    meta: 数据系大佬年回！
+    show: true
+  - nickname: Bob
+    avatar: https://avatars.githubusercontent.com/u/66893970
+    site: https://blog.beimo2007.top/
+    meta: 同龄人！系统内核开发者！
+    show: true
+  - nickname: 摸鱼
+    avatar: https://avatars.githubusercontent.com/u/61240774
+    site: https://blog.kifuan.me/
+    meta: 摸鱼大佬，高技术力雏草姬，~~何同学真爱粉~~
+    show: true
+
 footer:
   - title: "OneBot & NoneBot"
     children:
