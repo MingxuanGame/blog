@@ -8,14 +8,14 @@ description: MingxuanGame's blog, code for fun.
 nav_name: MingxuanGame
 
 # 导航栏座右铭
-motto: "Want to do everything, but do nothing."
+motto: ""
 
 github: "https://github.com/MingxuanGame"
 
 # 站点图标和APP图标
 favicon:
-  icon: /images/favicon.jpg
-  touch_icon: /images/favicon.jpg
+  icon: /images/favicon.jpeg
+  touch_icon: /images/favicon.jpeg
 
 # RSS文件位置
 rss:
@@ -33,7 +33,7 @@ highlight_theme: "night eighties"
 mathjax: true
 
 copyright:
-  enable: true
+  enable: false
   author: "MingxuanGame"
   show_link: true
   more: '版权声明: 本博客所有文章除特别声明外, 均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 </a>国际许可协议. 转载请注明出处!'
@@ -45,7 +45,7 @@ start_time: "2022-09-08"
 leancloud:
   appid: Xqx314bLUnrL2wetLC03Ofhu-MdYXbMMI
   appkey: kQXnQs2wtu271vKEaJXDnVnN
-  comment: true # 是否开启评论系统
+  comment: false # 是否开启评论系统
   count: true # 是否开启文章统计
 
 # 需要保证leancloud.count为true
@@ -67,11 +67,11 @@ busuanzi: false
 #   - efe07af7441da2b69c4a41e42e73be4db47f66010a56900788a458354a7373ec # godbmw
 
 share:
-  twitter: true
-  facebook: true
-  weibo: true
-  qq: true
-  wechat: true
+  twitter: false
+  facebook: false
+  weibo: false
+  qq: false
+  wechat: false
 
 analytics:
   baidu:
@@ -87,12 +87,10 @@ analytics:
 reward:
   enable: false
   qrcodes:
-  -
-    src: /images/wechat.png
-    alt: "WeChat"
-  -
-    src: /images/alipay.png
-    alt: "AliPay"
+    - src: /images/wechat.png
+      alt: "WeChat"
+    - src: /images/alipay.png
+      alt: "AliPay"
 
 # 第三方库的CDN地址
 # 请根据情况自行决定是否替换为国内CDN
@@ -104,75 +102,41 @@ cdn:
   font_awesome: "//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 
 nav:
-  -
-    name: "首页"
+  - name: "首页"
     path: "/"
-  -
-    name: "归档"
+  - name: "归档"
     path: "/archives/"
-  -
-    name: "标签"
+  - name: "标签"
     path: "/tags/"
-  -
-    name: "分类"
+  - name: "分类"
     path: "/categories/"
-  -
-    name: "友链"
+  - name: "友链"
     path: "/friends/"
-  -
-    name: "关于"
+  - name: "关于"
     path: "/about/"
 
 friends:
-  # 我也不知道为什么把我自己放在前面又不显示出来
-  # termux 物理键盘没法打中文有点难受
-  - nickname: MingxuanGame
-    avatar: /images/favicon.jpg
-    site: https://blog.mxgame.top
-    meta: 我自己！
-    show: false
-  - nickname: 津轻年回
-    avatar: https://avatars.githubusercontent.com/u/30568146
-    site: https://blog.nranp.com/
-    meta: 数据系大佬年回！
-    show: true
-  - nickname: Bob
-    avatar: https://avatars.githubusercontent.com/u/66893970
-    site: https://blog.beimo2007.top/
-    meta: 同龄人！系统内核开发者！
-    show: true
-  - nickname: 摸鱼
-    avatar: https://avatars.githubusercontent.com/u/61240774
-    site: https://blog.kifuan.me/
-    meta: 摸鱼大佬，高技术力雏草姬，~~何同学真爱粉~~
-    show: true
 
 footer:
-  - title: "OneBot & NoneBot"
-    children:
-      - name: "OneBot"
-        path: "https://onebot.dev/"
-      - name: "go-cqhttp"
-        path: "https://docs.go-cqhttp.org/"
-      - name: "NoneBot2"
-        path: "https://v2.nonebot.dev/"
-      - name: "NoneBot1"
-        path: "https://docs.nonebot.dev/"
-  - title: "Mirai & GraiaProject"
-    children:
-      - name: "Mirai"
-        path: "https://mirai.mamoe.net/"
-      - name: "Mirai-API-HTTP"
-        path: "https://docs.mirai.mamoe.net/mirai-api-http/"
-      - name: "Graia Project"
-        path: "https://graia.readthedocs.io/"
-      - name: "GraiaCommunity Docs"
-        path: "https://graiax.cn/"
   - title: "Contact me"
     children:
-      - name: "QQ: 1060148379"
-        path: "tencent://message/?uin=1060148379"
-      - name: "GitHub: MingxuanGame"
+      - name: "Bilibili"
+        path: "https://space.bilibili.com/478775392"
+      - name: "GitHub"
         path: "http://github.com/MingxuanGame"
+      - name: "Detail see here"
+        path: "https://github.com/MingxuanGame/MingxuanGame/blob/master/contacts.md"
+  - title: "Coding for Bot"
+    children:
+      - name: "NoneBot"
+        path: "https://nonebot.dev"
+      - name: "OneBot"
+        path: "http://onebot.dev"
+  - title: "Gaming"
+    children:
+      - name: "osu!"
+        path: "https://osu.ppy.sh/users/30732590"
+      - name: "Steam"
+        path: "https://steamcommunity.com/id/MingxuanGame"
 
 footer_contact: "MingxuanGame@outlook.com"
