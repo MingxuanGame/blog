@@ -6,7 +6,7 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
-.obsidian/workspace.json
+.obsidian/workspace*.json
 .obsidian/plugins/obsidian-git/main.js
 .obsidian/plugins/obsidian-git/manifest.json
 .obsidian/plugins/obsidian-git/obsidian_askpass.sh
