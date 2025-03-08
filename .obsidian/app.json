@@ -1,0 +1,11 @@
+{
+  "userIgnoreFilters": [
+    "node_modules/",
+    "scaffolds/",
+    "scripts/",
+    "themes/",
+    "public/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "source/_posts"
+}

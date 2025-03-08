@@ -1,0 +1,26 @@
+{
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-git:view-file-on-github": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-git:open-history-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ]
+}
